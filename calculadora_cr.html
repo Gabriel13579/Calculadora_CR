@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora C.R.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+         <h1>Calculadora C.R.</h1> 
+    </header>
+    <section>
+        <p id="obs">OBS: Coloque os valores pedidos e clique no botão para cada 
+            matéria com sua respectiva nota e C.H. que o C.R. será calculado 
+           e renovado automaticamente.
+        </p>
+       <div>
+
+        Nota <br><input type="number" id="nota" placeholder="digite a nota">
+        <br>
+
+
+        Carga Horária <br><input type="number" id="hora" placeholder=" digite a C.H.">
+       <br>
+
+       <input type="button" value="Calcular" onclick="calcule()" id="botao">
+       <br><br>
+       </div>
+
+       <div id="resultado">
+          
+       Resultado 
+       </div> 
+    </section>
+    <footer>
+        <p> &copy; Fim do site</p> 
+    </footer>
+    <script src="script_do_exercicio.js"></script>
+</body>
+</html>

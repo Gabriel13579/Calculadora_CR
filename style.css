@@ -1,0 +1,52 @@
+body{
+    background-color: rgba(0, 47, 255, 0.493);
+    padding: 30px; 
+    font-size: 25px;
+} 
+
+header{
+    text-align: center;
+    color: white;
+}
+
+h1{ 
+    font-size: 50px;
+}
+
+#obs{
+    font-size: 15px;
+    text-align: left;
+    margin-top: -15px;
+}
+#botao{
+    background-color: rgba(17, 17, 17, 0.061);
+
+}
+#botao:hover{
+    background-color: rgba(0, 47, 255, 0.493);
+    color: white;
+}
+
+section{
+    background-color: rgb(241, 241, 241);
+    padding: 50px;
+    width: 350px;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.411);
+} 
+input{
+    font-size: 18px;
+    width: 130px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+footer{text-align: center;
+    font-style: italic;
+    color: white;
+
+}
+
